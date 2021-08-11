@@ -1,5 +1,14 @@
 /* Cascading stylesheet for the website */
 
+  a {
+    color: blue;/* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  a:hover {
+    color: red;/* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
 
   /*Always mention a font-family and NOT a particular font*/
   body {
@@ -9,7 +18,7 @@
     text-align: center;/* set the text alignment here */
    }
 
-/* rem is Relative to font-size of the root element.
+  /* rem is Relative to font-size of the root element.
   Hence, it helps to keep rendering of the web page independent of 
   the device on which it is rendered */
   footer {
@@ -46,4 +55,11 @@
   hr {
     margin-bottom: 3rem;
     margin-top: 3rem;
+  }
+
+  /* this controls how the bullet points in the resume page looks */
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
   }
