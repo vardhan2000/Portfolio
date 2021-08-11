@@ -1,9 +1,13 @@
 /* Cascading stylesheet for the website */
 
 
-body{
-
-}
+  /*Always mention a font-family and NOT a particular font*/
+  body {
+    background-color: beige;/* set the background color here */
+    color: black;/* set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif;/* set the font here */
+    text-align: center;/* set the text alignment here */
+   }
 
 /* rem is Relative to font-size of the root element.
   Hence, it helps to keep rendering of the web page independent of 
